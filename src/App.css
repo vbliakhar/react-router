@@ -1,0 +1,19 @@
+.nav {
+  text-align: center;
+}
+.nav ul{
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+}
+.nav ul li {
+  margin-bottom: 15px;
+  
+}
+.nav ul li a{
+  color: #363f54;
+  text-decoration: none;
+}
+.Drawer ul li a:hover, .active{
+  opacity: .7;
+}

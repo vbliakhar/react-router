@@ -1,0 +1,9 @@
+.About{
+  text-align: center;
+  border: 8px solid transparent;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  
+}
+.About>h1{
+  text-align: center;
+}
