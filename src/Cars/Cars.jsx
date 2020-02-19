@@ -8,14 +8,22 @@ class Cars extends Component{
       {name:"Mazda", year: 2010}
     ]
   }
+  goToHomePage=()=>{
+    this.props.history.push({
+      pathname:'/'
+    })
+  }
   render(){
+    console.log(this.props)
     return(
       <div style={{
         width: 400,
         margin: 'auto',
-        padding: '20px'
+        padding: '20px',  
+        textAlign:"center"
       }}>
-        
+        <button onClick={this.goToHomePage}>GoToHomePage</button>
+        <hr/>
         {this.state.cars.map((car,index)=>{
           return(
             <Car
