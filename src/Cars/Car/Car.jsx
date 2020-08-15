@@ -2,6 +2,7 @@ import React from 'react'
 import classes from './Car.module.css'
 import {withRouter} from'react-router-dom'
 const Car=(props)=>{
+  // console.log(props)
   return(
     <div 
       className={classes.Car}
